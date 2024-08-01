@@ -1,0 +1,36 @@
+.newsletter-container {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+.newsletter-header {
+  color: #3d3d3d;
+  margin-top: 70px;
+}
+
+.newsletter-header h1 {
+  font-size: 24pt;
+}
+
+.form {
+  margin-top: 50px;
+}
+
+.form input {
+  padding: 16px;
+  border: none;
+  width: 220px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.form input:last-child {
+  width: 80px;
+  background-color: #3d3d3d;
+  color: #efefef;
+  cursor: pointer;
+}

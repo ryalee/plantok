@@ -1,0 +1,40 @@
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  position: absolute;
+  width: 64vw;
+  margin: 0 15%;
+}
+
+.logo {
+  font-size: 40pt;
+  font-weight: 200;
+}
+
+.nav-menu ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  list-style: none;
+  padding: 10px;
+}
+
+.nav-menu li {
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 11pt;
+}
+
+.nav-menu .contact {
+  border: 2px solid #3d3d3d;
+  cursor: pointer;
+}
+
+.nav-menu .contact:hover {
+  background-color: #3d3d3d;
+  color: #fff;
+  transition: .4s;
+}

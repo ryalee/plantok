@@ -1,0 +1,56 @@
+.about-container {
+  display: flex;
+  margin-top: 130px;
+  color: #3d3d3d;
+}
+
+.about-container img {
+  width: 450px;
+  margin-left: 120px;
+}
+
+.about-text {
+  width: 600px;
+  margin-left: 50px;
+}
+
+.about-text h1 {
+  font-size: 50pt;
+  font-weight: 400;
+  margin-right: 70px;
+}
+
+.about-text p {
+  margin-top: 40px;
+  font-size: 16pt;
+  width: 500px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.about-text button {
+  padding: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 42rem;
+  top: 75rem;
+  font-weight: bold;
+  color: #3d3d3d;
+  background: linear-gradient(120deg, transparent 50%, #fff 50%);
+  background-size: 220% 220%;
+  background-position: 100% 100%;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-position 0.5s, background-size .3s;
+  outline: none;
+}
+
+.about-text button:hover {
+  background-color: #3d3d3d;
+  color: #fff;
+  background-position: 0% 0%;
+  background-size: 200% 200%;
+}
+
